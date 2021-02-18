@@ -7,7 +7,11 @@ h1 {
 
 h3 {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
+    line-height: 0.1em;
+    padding: 0.1em;
+    padding-left: 0;
+    margin-top: 2em;
 }
 
 body {
@@ -30,13 +34,30 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.75em;
     padding: 0 0.3em;
-    width: 3em;
+    width: auto;
+    max-width: 3.6em;
     line-height: 1.5em;
 }
 
 .nav {
-    color: #fff;
+    color: #FFBC48;
+    background-color: #353A42;
+    display: flow-root;
+    box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
+    font-size: 0.85em;
+    line-height: 2em;
+    list-style-type: none;
+    width: auto;
+    max-width: 30em;
+    padding: 1em 1em;
+    margin-top: 0;
+    margin-left: -1.15em;
+    margin-right: -1.2em;
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
@@ -45,10 +66,6 @@ h2 {
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-li {
-    font-family: 'Fira Sans', sans-serif;
 }
 
 .layout {
@@ -61,4 +78,14 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
+ol {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+    color: #FFBC48;
+}
+
+
 
