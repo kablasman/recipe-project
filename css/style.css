@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&display=swap');
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flow-root;
+    background-color: #353A42;
+    color: #fff;
+    padding: 0 1em;
+    margin: 0 -1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.baking {
+    margin: 1em 0;
+    background-color: #FFBC48;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.75em;
+    padding: 0 0.3em;
+    width: 3em;
+    line-height: 1.5em;
+}
+
+.nav {
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.layout {
+    display: flow-root;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: auto;
+    max-width: 25em;
+    padding: 0 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
