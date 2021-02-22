@@ -6,6 +6,11 @@ h1 {
     margin-top: 0.5em;
 }
 
+h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
+
 h3 {
     font-family: 'Fira Sans', sans-serif;
     font-size: 0.8em;
@@ -107,6 +112,11 @@ p {
     margin-right: auto;
 }
 
+.quote {
+    border-left: solid #FFBC48;
+    margin: 0 1em;
+}
+
 ol {
     font-family: 'Fira Sans', sans-serif;
     padding-left: 1em;
@@ -119,6 +129,7 @@ a {
 .highlight {
     background-color:#FFBC48;
     padding: 0 0.3em;
+    color: black;
 }
 
 table, td, tr, th{
