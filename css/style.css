@@ -94,6 +94,7 @@ figcaption {
 ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5em;
+    font-size: 0.9em;
 }
 
 h2 {
@@ -103,6 +104,7 @@ h2 {
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5em;
+    font-size: 0.9em;
 }
 
 .layout {
@@ -134,10 +136,12 @@ a {
     background-color:#FFBC48;
     padding: 0 0.3em;
     color: black;
+    font-size: 0.9em;
 }
 
 table, td, tr, th{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9em;
     border: solid 1px black;
     border-collapse:collapse;
     width: 100%;
