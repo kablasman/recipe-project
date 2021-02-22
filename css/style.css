@@ -18,6 +18,27 @@ body {
     margin: 0;
 }
 
+img {
+    width: auto;
+    max-width: 100%;
+    margin
+}
+
+.crop {
+    width: 100%;
+    height: 12em;
+    object-fit: cover;
+  }
+
+figcaption {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
 .header {
     display: flow-root;
     background-color: #353A42;
@@ -49,7 +70,7 @@ body {
     line-height: 2em;
     list-style-type: none;
     width: auto;
-    max-width: 30em;
+    max-width: 32em;
     padding: 1em 1em;
     margin-top: 0;
     margin-left: -1.15em;
@@ -58,6 +79,7 @@ body {
 
 ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5em;
 }
 
 h2 {
@@ -66,6 +88,7 @@ h2 {
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5em;
 }
 
 .layout {
@@ -73,7 +96,7 @@ p {
     box-sizing: border-box;
     background-color: #fff;
     width: auto;
-    max-width: 25em;
+    max-width: 26em;
     padding: 0 1em;
     margin-left: auto;
     margin-right: auto;
@@ -81,10 +104,16 @@ p {
 
 ol {
     font-family: 'Fira Sans', sans-serif;
+    padding-left: 1em;
 }
 
 a {
     color: #FFBC48;
+}
+
+.highlight {
+    background-color:#FFBC48;
+    padding: 0 0.3em;
 }
 
 
