@@ -89,6 +89,7 @@ figcaption {
     max-width: 32em;
     padding: 1em 1em;
     margin: 0 -1.2em;
+    text-indent: 0.2em;
 }
 
 ul {
