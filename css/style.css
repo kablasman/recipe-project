@@ -2,6 +2,32 @@
 
 html {
     background-color: #353A42;
+    background-size: cover;
+}
+
+.layout {
+    display: flow-root;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: auto;
+    max-width: 26em;
+    padding: 0 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flow-root;
+    background-color: #222028;
+    background-image: url(../img/ingredients-480w.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    color: #fff;
+    padding: 0 1em;
+    margin: 0 -1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 
 h1 {
@@ -13,13 +39,14 @@ h1 {
 h2 {
     font-size: 1.2em;
     letter-spacing: 0.1em;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h3 {
     font-family: 'Fira Sans', sans-serif;
     font-size: 0.8em;
-    line-height: 0;
-    padding: 0.1em 0;
+    line-height: 0.5em;
+    padding: 0.2em 0;
     margin: 1.5em 0;
 }
 
@@ -29,6 +56,33 @@ h3 {
 
 body {
     margin: 0;
+}
+
+.baking {
+    margin: 2em 0;
+    background-color: #FFBC48;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.75em;
+    padding: 0 0.3em;
+    width: auto;
+    max-width: 3.6em;
+    line-height: 1.5em;
+}
+
+.nav {
+    color: #FFBC48;
+    background-color: #222028;
+    background-size: cover;
+    background-position: center;
+    display: flow-root;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 3em;
+    width: auto;
+    max-width: 26em;
+    padding: 0.5em 1em;
+    margin: 0 -1em;
 }
 
 img {
@@ -51,72 +105,16 @@ figcaption {
     margin-bottom: 1em;
 }
 
-.header {
-    display: flow-root;
-    background-color: #222028;
-    background-image: url(../img/ingredients-480w.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    color: #fff;
-    padding: 0 1em;
-    margin: 0 -1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
-}
-
-.baking {
-    margin: 2em 0;
-    background-color: #FFBC48;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.75em;
-    padding: 0 0.3em;
-    width: auto;
-    max-width: 3.6em;
-    line-height: 1.5em;
-}
-
-.nav {
-    color: #FFBC48;
-    background-color: #222028;
-    display: flow-root;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 0.85em;
-    line-height: 2em;
-    list-style-type: none;
-    width: auto;
-    max-width: 32em;
-    padding: 1em 1em;
-    margin: 0 -1.2em;
-    text-indent: 0.2em;
-}
-
 ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5em;
     font-size: 0.9em;
 }
 
-h2 {
-    font-family: 'Fira Sans', sans-serif;
-}
-
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5em;
     font-size: 0.9em;
-}
-
-.layout {
-    display: flow-root;
-    box-sizing: border-box;
-    background-color: #fff;
-    width: auto;
-    max-width: 26em;
-    padding: 0 1em;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .quote {
@@ -164,7 +162,7 @@ caption {
     line-height: 2em;
     list-style-type: none;
     width: auto;
-    max-width: 32em;
+    max-width: 29em;
     padding: 2.5em 1em;
     margin: 0 -1.2em;
 }
