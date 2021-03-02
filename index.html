@@ -8,149 +8,152 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <article class="layout">
+    <article class="container">
       <header class="header">
-        <div class ="baking"> <strong>Baking</strong></divclass> </div>
+        <div class ="baking"> <strong>Baking</strong></div>
         <h1>Delicious No-Knead Baguettes</h1>
         <p>Make three <strong>fluffy and delicious baguettes</strong>, using a <em>simple</em> <strong><a href="folding technique">folding technique</a></strong>, instead of labor-intensive kneading.</p>
         <div class="style">
-          <h3>ACTIVE TIME <span class="highlight">40<abbr title="Minutes"> MINS</abbr> </span></h3>
-          <h3>TOTAL TIME <span class="highlight">3 <abbr title="Hours"> HRS</abbr></span></h3>
-          <h3>CALORIES <span class="highlight"> 1670</span></h3>
-          <h3>SKILL LEVEL <span class="highlight"> MEDIUM</span></h3>
+          <ul class="ul">
+            <li><h3>Active Time <span class="highlight">40<abbr title="Minutes"> MINS</abbr> </span></h3></li>
+            <li><h3>Total Time <span class="highlight">3 <abbr title="Hours"> HRS</abbr></span></h3></li>
+            <li><h3>Calories <span class="highlight"> 1670</span></h3></li>
+            <li><h3>Skills Level <span class="highlight"> MEDIUM</span></h3></li>
+          </ul>
         </div>
       </header>
+
       <nav class="nav">
-        <h3>Story</h3>
-        <h3>Ingredients</h3>
-        <h3>Equipment</h3>
-        <h3>Process</h3>
-        <h3>Schedule</h3>
-        <h3>Result</h3>
-        <!-- <ul class="nav">
-          <li>Story</li>
-          <li>Ingredients</li>
-          <li>Equipment</li>
-          <li>Process</li>
-          <li>Schedule</li>
-          <li>Result</li>
-        </ul> -->
+        <ul class="ul">
+          <li class="navflex"><a href="Story"><h3>Story</h3></a></li>
+          <li class="navflex"><a href="Ingredients"><h3>Ingredients</h3></a></li>
+          <li class="navflex"><a href="Equipment"><h3>Equipment</h3></a></li>
+          <li class="navflex"><a href="Process"><h3>Process</h3></a></li>
+          <li class="navflex"><a href="Schedule"><h3>Schedule</h3></a></li>
+          <li class="navflex"><a href="Result"><h3>Result</h3></a></li>
+        </ul>
       </nav>
-      <main>
-        <h2>STORY</h2>
-        <p>Lorem ipsum, <strong><a href="delicious bread">delicious bread</a></strong> dolor sit amet consectetur adipisicing elit. Architecto nesciunt reprehenderit aliquam quibusdam praesentium. Officiis, est quod facere veniam quos et nisi, ratione aliquid quas aperiam corporis eaque sapiente provident?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, cupiditate iste nam quisquam in officiis sit quia perspiciatis reiciendis. Id sint aliquam suscipit? Eveniet sint repellat similique rem temporibus quae?</p>
-        <div class="quote">
-          <blockquote><em>Poetry is an act of peace. Peace goes into the making of a poem as flour goes into the making of bread.</em></blockquote>
-          <blockquote><em>Pablo Neruda</em></blockquote>
-        </div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aspernatur, qui consectetur minus quo tenetur minima quidem totam et expedita veniam magni pariatur eos reiciendis esse fugit cupiditate porro voluptatem!</p>
-        <img src="img/gallery-a.jpg" alt="3 baguettes" class="crop">
 
-        <h2>INGREDIENTS</h2>
-        <ul>
-          <li><strong>500 g</strong> bread flour</li>
-          <li><strong>400 g</strong> cool water</li>
-          <li><strong>10 g</strong> salt</li>
-          <li><strong>7.5 g</strong> yeast</li>
-          <li>extra flour (for dusting)</li>
-        </ul>
+      <main class="container">
+        <section class="left">
+          <h2 class="ingredients">INGREDIENTS</h2>
+          <ul class="bullet">
+            <li><strong>500 g</strong> bread flour</li>
+            <li><strong>400 g</strong> cool water</li>
+            <li><strong>10 g</strong> salt</li>
+            <li><strong>7.5 g</strong> yeast</li>
+            <li>extra flour (for dusting)</li>
+          </ul>
+          <h2 class="ingredients">EQUIPMENT</h2>
+          <ul class="bullet">
+            <li>Large bowl</li>
+            <li>Plastic wrap</li>
+            <li>Baking sheet/stone</li>
+            <li>Bench scraper</li>
+            <li>Thermometer</li>
+          </ul>
+        </section>
 
-        <h2>EQUIPMENT</h2>
-        <ul>
-          <li>Large bowl</li>
-          <li>Plastic wrap</li>
-          <li>Baking Sheet or stone</li>
-          <li>Bench scraper</li>
-          <li>Thermometer</li>
-        </ul>
+        <section class="right">
+          <h2>STORY</h2>
+          <p>Lorem ipsum, <strong><a href="delicious bread">delicious bread</a></strong> dolor sit amet consectetur adipisicing elit. Architecto nesciunt reprehenderit aliquam quibusdam praesentium. Officiis, est quod facere veniam quos et nisi, ratione aliquid quas aperiam corporis eaque sapiente provident?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, cupiditate iste nam quisquam in officiis sit quia perspiciatis reiciendis. Id sint aliquam suscipit? Eveniet sint repellat similique rem temporibus quae?</p>
+          <div class="quote">
+            <blockquote><em>Poetry is an act of peace. Peace goes into the making of a poem as flour goes into the making of bread.</em></blockquote>
+            <blockquote><em>Pablo Neruda</em></blockquote>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aspernatur, qui consectetur minus quo tenetur minima quidem totam et expedita veniam magni pariatur eos reiciendis esse fugit cupiditate porro voluptatem!</p>
+          <img src="img/gallery-a.jpg" alt="3 baguettes" class="crop">
+          
+          <h2>PROCESS</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quasi aspernatur dolorum sapiente, ut maiores ea ducimus incidunt, alias officiis omnis nam quo nisi ad eligendi facilis exercitationem rerum. Quae.</p>
+          <ol>
+            <li><strong>Mixing</strong> 
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores ad fugiat odit laboriosam vel quos voluptate explicabo cumque quaerat sint, qui eos architecto unde eius ratione magni quis reprehenderit?</p>
+              <img src="img/mixing-ingredients-960w.jpg" alt="ball of dough">
+              <figcaption>Fig 1: All ingredients mixed to form a shaggy dough</figcaption>
+            </li>
+            <li><strong>Folding</strong> 
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis magnam eligendi esse distinctio praesentium aliquid quod alias natus, nam excepturi voluptate! Totam maiores temporibus perferendis deleniti nam quisquam saepe quia.</p>
+              
+              <p>Be sure to <strong><span class="highlight">let your dough sit for about 20-30 minutes between folds</span></strong>, to ensure the gluten structure has a chance to develop before being disturbed again.</p>
+              <img src="img/folding-dough-960w.jpg" alt="person folding dough">
+              <figcaption>Fig 2: Folding the dough, instead of kneading</figcaption>
+            </li> 
+            <li><strong>Proofing</strong>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia ipsa incidunt dignissimos obcaecati deleniti. Pariatur, maxime debitis necessitatibus magnam excepturi dolor, est obcaecati natus, nulla vitae repellat quasi rerum odio?</p>
+              <img src="img/proofing-960w.jpg" alt="dusting dough with flour">
+              <figcaption>Fig 3: Dough dusted with flour, ready to sit and proof</figcaption>
+            </li>
+            <li><strong>Baking</strong>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ratione nesciunt id est et consectetur aliquid in deserunt ipsam dolorem quisquam, ipsum cum minus consequatur vitae vel repudiandae commodi perferendis?</p>
+              <img src="img/baked-baguettes-960w.jpg" alt="stack of baked baguettes">
+              <figcaption>Fig 4: Delicious baked baguettes, cut and stacked</figcaption>
+            </li>
+          </ol>
 
-        <h2>PROCESS</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quasi aspernatur dolorum sapiente, ut maiores ea ducimus incidunt, alias officiis omnis nam quo nisi ad eligendi facilis exercitationem rerum. Quae.</p>
-        <ol>
-          <li><strong>Mixing</strong> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores ad fugiat odit laboriosam vel quos voluptate explicabo cumque quaerat sint, qui eos architecto unde eius ratione magni quis reprehenderit?</p>
-            <img src="img/mixing-ingredients-960w.jpg" alt="ball of dough">
-            <figcaption>Fig 1: All ingredients mixed to form a shaggy dough</figcaption>
-          </li>
-          <li><strong>Folding</strong> 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis magnam eligendi esse distinctio praesentium aliquid quod alias natus, nam excepturi voluptate! Totam maiores temporibus perferendis deleniti nam quisquam saepe quia.</p>
-            
-            <p>Be sure to <strong><span class="highlight">let your dough sit for about 20-30 minutes between folds</span></strong>, to ensure the gluten structure has a chance to develop before being disturbed again.</p>
-            <img src="img/folding-dough-960w.jpg" alt="person folding dough">
-            <figcaption>Fig 2: Folding the dough, instead of kneading</figcaption>
-          </li> 
-          <li><strong>Proofing</strong>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia ipsa incidunt dignissimos obcaecati deleniti. Pariatur, maxime debitis necessitatibus magnam excepturi dolor, est obcaecati natus, nulla vitae repellat quasi rerum odio?</p>
-            <img src="img/proofing-960w.jpg" alt="dusting dough with flour">
-            <figcaption>Fig 3: Dough dusted with flour, ready to sit and proof</figcaption>
-          </li>
-          <li><strong>Baking</strong>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ratione nesciunt id est et consectetur aliquid in deserunt ipsam dolorem quisquam, ipsum cum minus consequatur vitae vel repudiandae commodi perferendis?</p>
-            <img src="img/baked-baguettes-960w.jpg" alt="stack of baked baguettes">
-            <figcaption>Fig 4: Delicious baked baguettes, cut and stacked</figcaption>
-          </li>
-        </ol>
+          <h2 class="fig4">SCHEDULE</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, soluta quas. Voluptatem maxime soluta exercitationem dolorem blanditiis, nemo, sint omnis tenetur aliquid ab reiciendis nulla iure maiores odio fugit error.</p>
+          <table>
+            <caption>Table 1: Simple baking schedule</caption>
+            <tr>
+              <th colspan="2">Time</th>
+              <th rowspan="2">Task</th>
+            </tr>
+            <tr>
+              <td><strong>Start</strong></td>
+              <td><strong>Duration</strong></td>
+            </tr>
+            <tr>
+              <td>0:00</td>
+              <td>(20 min)</td>
+              <td>Mix ingredients</td>
+            </tr>
+            <tr>
+              <td>0:20</td>
+              <td>(100 min)</td>
+              <td>Bulk rise</td>
+            </tr>
+            <tr>
+              <td>2:00</td>
+              <td>(30 min)</td>
+              <td>Fold & rest</td>
+            </tr>
+            <tr>
+              <td>2:30</td>
+              <td>(30 min)</td>
+              <td>Fold & rest</td>
+            </tr>
+            <tr>
+              <td>3:00</td>
+              <td>(30 min)</td>
+              <td>Proof</td>
+            </tr>
+            <tr>
+              <td>3:30</td>
+              <td>(30 min)</td>
+              <td>Bake</td>
+            </tr>
+          </table>
+          
+          <h2>RESULT</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quia quo repellendus quibusdam voluptates, obcaecati atque accusantium itaque? Veritatis itaque sequi numquam provident similique nesciunt quia saepe optio facere dolores!</p>
+          <img src="img/ready-to-eat-960w.jpg" alt="two baguettes wrapped up and ready to eat">
+          <figcaption>Fig 5: Two baguettes, wrapped up and ready to share</figcaption>
 
-        <h2>SCHEDULE</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, soluta quas. Voluptatem maxime soluta exercitationem dolorem blanditiis, nemo, sint omnis tenetur aliquid ab reiciendis nulla iure maiores odio fugit error.</p>
-        <table>
-          <caption>Table 1: Simple baking schedule</caption>
-          <tr>
-            <th colspan="2">Time</th>
-            <th rowspan="2">Task</th>
-          </tr>
-          <tr>
-            <td><strong>Start</strong></td>
-            <td><strong>Duration</strong></td>
-          </tr>
-          <tr>
-            <td>0:00</td>
-            <td>(20 min)</td>
-            <td>Mix ingredients</td>
-          </tr>
-          <tr>
-            <td>0:20</td>
-            <td>(100 min)</td>
-            <td>Bulk rise</td>
-          </tr>
-          <tr>
-            <td>2:00</td>
-            <td>(30 min)</td>
-            <td>Fold & rest</td>
-          </tr>
-          <tr>
-            <td>2:30</td>
-            <td>(30 min)</td>
-            <td>Fold & rest</td>
-          </tr>
-          <tr>
-            <td>3:00</td>
-            <td>(30 min)</td>
-            <td>Proof</td>
-          </tr>
-          <tr>
-            <td>3:30</td>
-            <td>(30 min)</td>
-            <td>Bake</td>
-          </tr>
-        </table>
-        
-        <h2>RESULT</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quia quo repellendus quibusdam voluptates, obcaecati atque accusantium itaque? Veritatis itaque sequi numquam provident similique nesciunt quia saepe optio facere dolores!</p>
-        <img src="img/ready-to-eat-960w.jpg" alt="two baguettes wrapped up and ready to eat">
-        <figcaption>Fig 5: Two baguettes, wrapped up and ready to share</figcaption>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, commodi! Sit laudantium modi possimus voluptatem quis maiores magni autem laborum eius quas harum dolorem neque, inventore numquam fugiat minus fugit!</p>
 
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, commodi! Sit laudantium modi possimus voluptatem quis maiores magni autem laborum eius quas harum dolorem neque, inventore numquam fugiat minus fugit!</p>
-
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus soluta veritatis rerum ipsam impedit eius, commodi esse dolore veniam aliquam hic necessitatibus voluptates odit officiis, aspernatur omnis cupiditate! Assumenda, dolor?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus soluta veritatis rerum ipsam impedit eius, commodi esse dolore veniam aliquam hic necessitatibus voluptates odit officiis, aspernatur omnis cupiditate! Assumenda, dolor?</p>
+        </section>
       </main>
-      <footer> 
-        <ul class="footer">
-          <li>Copyright © 1970</li>
-          <li><strong><a href="Terms">Terms</a></strong> | <strong><a href="Privacy">Privacy</a></strong></li>
-        </ul> 
-      </footer>
+      <!--<section class="right">
+            <footer> 
+              <ul class="footer">
+                <li>Copyright © 1970</li>
+                <li><strong><a class="link" href="Terms">Terms</a></strong> | <strong><a class="link" href="Privacy">Privacy</a></strong></li>
+              </ul> 
+            </footer>
+          </section>-->
     </article>
   </body>
 </html>
