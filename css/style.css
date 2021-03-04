@@ -68,7 +68,7 @@ main {
     background-color: #FFBC48;
     margin: 0;
     margin-top: -2em;
-    padding: 1em 0;
+    padding: 1em -4em;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row: 1/4;
@@ -116,15 +116,22 @@ p {
     padding: 1em;
 }
 
+footer {
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1em;
+}
+
 .footer {
-    color:black;
-    background-position: center;
+    color:white;
+    background-color: #222028;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.85em;
-    position: absolute;
-    right: 50px;
     list-style-type: none;
-    padding: 0 6em;
+    padding: 3em;
+    margin: 0;
+    line-height: 2em;
 }
 
 img {
@@ -177,6 +184,7 @@ a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6em;
     margin-top: 0;
+    margin-bottom: 0;
     padding: 0 4em;
 }
 
@@ -185,10 +193,6 @@ a {
     padding: 0 0.3em;
     color: black;
     font-size: 0.9em;
-}
-
-.link {
-    color: black;
 }
 
 table, td, tr, th{
@@ -229,14 +233,14 @@ caption {
     margin: 0 1em;
 }
 
-.fig4 {
+.spacing {
     padding-top: 0;
     margin-top: 0;
 }
 
-/* on screens less than 850 px*/
+/* on screens less than 650 px*/
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 650px) {
 
     body {
         max-width: 25em;
@@ -292,13 +296,20 @@ caption {
 
     .left {
         flex-basis: 30%;
-        background-color: #fff;
         margin: 0;
-        padding: 0;
+        padding: 1em;
     }
 
     .navflex {
         display: flow-root;
+        padding: 0;
+    }
+
+    footer {
+        max-width: 25em;
+        min-width: 25em;
+        margin-left: auto;
+        margin-right: auto;
         padding: 0;
     }
 
