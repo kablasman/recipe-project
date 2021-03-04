@@ -82,7 +82,7 @@ main {
     background-color: #fff;
     padding: 1em 1em;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
     
 }
 
@@ -98,6 +98,8 @@ h2 {
     margin: 0.5em;
     padding-top: 0.5em;
     padding-left: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -114,13 +116,13 @@ p {
     line-height: 1.5em;
     font-size: 0.9em;
     padding: 1em;
+    margin: 0;
 }
 
 footer {
     max-width: 50em;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 1em;
 }
 
 .footer {
@@ -185,7 +187,10 @@ a {
     line-height: 1.6em;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0 4em;
+    padding-left: -3em;
+    padding-top: 0.5em;
+    margin-left: 1em;
+    padding-bottom: 0;
 }
 
 .highlight {
@@ -224,8 +229,9 @@ caption {
 }
 
 .ingredients {
-    padding: 0 1.3em;
+    padding: 0 1em;
     margin-top: 1em;
+    margin-bottom: 0;
 }
 
 .quote {
@@ -297,7 +303,8 @@ caption {
     .left {
         flex-basis: 30%;
         margin: 0;
-        padding: 1em;
+        padding: 0.5em 1em;
+        background-color: white;
     }
 
     .navflex {
@@ -328,7 +335,7 @@ caption {
     }
 
     .ingredients {
-        padding:0;
+        padding: 0;
     }
 
 }
