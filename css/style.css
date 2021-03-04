@@ -244,9 +244,9 @@ caption {
     margin-top: 0;
 }
 
-/* on screens less than 650 px*/
+/* on screens less than 600 px*/
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
 
     body {
         max-width: 25em;
