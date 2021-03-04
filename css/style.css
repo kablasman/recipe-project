@@ -1,23 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&display=swap');
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: auto;
+html {
+    background-color: #353A42;
+    background-size: 100%;
 }
 
-.baking {
-    margin: 2em 0;
-    background-color: #FFBC48;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.75em;
-    padding: 0 0.3em;
-    width: auto;
-    max-width: 3.6em;
-    line-height: 1.5em;
+body{
+    margin: 0;
 }
+
+main {
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* parent */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+    width: 100%;
+    min-height: 100%;
+}
+
+/*.maingrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}*/
 
 .header {
     align-items: center;
@@ -28,109 +39,51 @@
     background-blend-mode: multiply;
     color: #fff;
 	text-align: left;
-    padding: 0 1em;
-    width: 100%;
+    padding: 1em 2em;
 } 
 
-.ingredients {
-    padding: 0 1.3em;
-    margin-top: 1em;
-}
-
-.left {
-    flex-basis: 30%;
-    background-color: #FFBC48;
-    margin: 0;
-    flex:1;
-}
-
-.right {
-    flex-basis: 70%;
-    background-color: #fff;
-}
-
-.link {
-    color: black;
-}
-
-.style {
-    margin: 2em 0;
-    text-transform: uppercase;
-}
-
-.crop {
-    width: 100%;
-    height: 12em;
-    object-fit: cover;
-}
-
-.quote {
-    border-left: solid #FFBC48;
-    margin: 0 1em;
-}
-
-.highlight {
-    background-color:#FFBC48;
-    padding: 0 0.3em;
-    color: black;
-    font-size: 0.9em;
-}
-
-.bullet {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.6em;
-    margin-top: 0;
-    padding: 0 4em;
-}
-
-.ul {
-    line-height: 2em;
-    padding: 0 1em;
-    justify-content: space-evenly;
+/* first child */
+.nav {
+    color: #FFBC48;
+    background-color: #222028;
+    background-position: center;
     list-style-type: none;
-    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: -2em;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .navflex {
     display: inline-flex;
     flex-direction: row;
-    justify-content:space-between;
-    padding: 0 1.2em;
+    justify-content: space-evenly;
 }
 
-.nav {
-    color: #FFBC48;
-    background-color: #222028;
-    width: 100%;
-    background-position: center;
-    list-style-type: none;
-    font-family: 'Fira Sans', sans-serif;
+/* second child */
+.left {
+    /*flex-direction: column;
+    flex-basis: 30%;
+    flex-wrap: wrap;*/
+    background-color: #FFBC48;
     margin: 0;
+    margin-top: -2em;
+    padding: 1em 0;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1/4;
 }
 
-.fig4 {
-    padding-top: 0;
-    margin-top: 0;
-}
-
-.footer {
-    color:black;
-    background-position: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.85em;
-    position: absolute;
-    right: 50px;
-    list-style-type: none;
-    padding: 0 6em;
-}
-
-html {
-    background-color: #353A42;
-    background-size: 100%;
-}
-
-body{
-    margin: 0;
+/* third child */
+.right {
+    /*flex-direction: column;
+    flex-basis: 70%;
+    flex-wrap: wrap;*/
+    background-color: #fff;
+    padding: 1em 1em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
 }
 
 h1 {
@@ -156,6 +109,24 @@ h3 {
     flex-direction: row;
 }
 
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    padding: 1em;
+}
+
+.footer {
+    color:black;
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.85em;
+    position: absolute;
+    right: 50px;
+    list-style-type: none;
+    padding: 0 6em;
+}
+
 img {
     width: auto;
     max-width: 100%;
@@ -169,11 +140,20 @@ figcaption {
     margin-bottom: 1em;
 }
 
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.5em;
-    font-size: 0.9em;
-    padding: 1em;
+.crop {
+    width: 100%;
+    height: 12em;
+    object-fit: cover;
+}
+
+.ul {
+    line-height: 2em;
+    padding: 0 1em;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    margin: 0.5em;
+    display: flex;
 }
 
 ol {
@@ -186,6 +166,29 @@ ol {
 a {
     color: #FFBC48;
     text-decoration: none;
+}
+
+.style {
+    margin: 2em 0;
+    text-transform: uppercase;
+}
+
+.bullet {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6em;
+    margin-top: 0;
+    padding: 0 4em;
+}
+
+.highlight {
+    background-color:#FFBC48;
+    padding: 0 0.3em;
+    color: black;
+    font-size: 0.9em;
+}
+
+.link {
+    color: black;
 }
 
 table, td, tr, th{
@@ -204,9 +207,43 @@ caption {
     text-align: left;
 }
 
-/* on screens less than 600 px*/
+.baking {
+    margin: 2em 0;
+    background-color: #FFBC48;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.75em;
+    padding: 0 0.3em;
+    width: auto;
+    max-width: 3.6em;
+    line-height: 1.5em;
+}
 
-@media screen and (max-width: 853px) {
+.ingredients {
+    padding: 0 1.3em;
+    margin-top: 1em;
+}
+
+.quote {
+    border-left: solid #FFBC48;
+    margin: 0 1em;
+}
+
+.fig4 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/* on screens less than 850 px*/
+
+@media screen and (max-width: 850px) {
+
+    body {
+        max-width: 25em;
+        min-width: 25em;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .header {
         display: flow-root;
@@ -218,7 +255,7 @@ caption {
         background-blend-mode: multiply;
         color: #fff;
         padding: 0 1em;
-        margin: 0 -1em;
+        max-width: 25em;
         font-family: Georgia, 'Times New Roman', Times, serif;  
     }
 
@@ -232,7 +269,7 @@ caption {
         font-family: 'Fira Sans', sans-serif;
         line-height: 1em;
         width: auto;
-        max-width: 26em;
+        max-width: 25em;
         padding: 0.5em 1em;
         margin: 0 -1em;
     }
@@ -263,6 +300,20 @@ caption {
     .navflex {
         display: flow-root;
         padding: 0;
+    }
+
+    .ul {
+        display: flow-root;
+        line-height: 1em;
+        padding: 0 0.5em;
+        margin: 0;
+        justify-content: space-evenly;
+        list-style-type: none;
+        text-align: left;
+    }
+
+    li {
+        margin-left: -0.3em;
     }
 
     .ingredients {
