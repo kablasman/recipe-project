@@ -1,18 +1,22 @@
 # Delicious No-Knead Baguettes
 
-## Stats
+## Header
    ### Active Time
    ### Total Time
    ### Calories
    ### Skill Level
-   
-## Story
-## Ingredients
-## Equipment
-## Process
+## Nav
+
+## Main
+   ## Ingredients
+   ## Equipment 
+   ## Story
+   ## Process
    ### Mixing
    ### Folding
    ### Proofing
    ### Baking
-## Schedule
-## Result
+   ## Schedule
+   ## Result
+## Footer
+   
