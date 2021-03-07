@@ -423,6 +423,13 @@ input:checked + .switch:after {
         width: 3em;
     }
 
+    input:checked + .switch:after {
+        content:"grams";
+        position: absolute;
+        padding-top: 0.32em;
+        right: 3.47rem;
+    }
+
     .headerp {
         padding: 0.5em 0;
     }
