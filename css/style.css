@@ -21,6 +21,12 @@ header {
     padding: 2em 2em;
 } 
 
+.head_content {
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 main {
     max-width: 50em;
     margin-left: auto;
