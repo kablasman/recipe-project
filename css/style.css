@@ -168,6 +168,10 @@ a {
     text-decoration: none;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .style {
     margin: 2em 0;
     text-transform: uppercase;
@@ -260,7 +264,7 @@ input:checked + .switch {
     padding-left: 0.7em;
  }
 
- .switch:after {
+.switch:after {
     content:"lbs,oz";
     font-family: 'Fira Sans', sans-serif;
     color:grey;
@@ -292,7 +296,6 @@ input:checked + .switch:after {
 
 .icon {
     float: right;
-    position: relative;
     text-align: center;
     vertical-align: middle;
     padding-left: 0.5em;
@@ -362,7 +365,7 @@ input:checked + .switch:after {
 
     .navflex {
         display: block;
-        padding: 0 1em;
+        padding: 0 1.5em;
     }
 
     h2 {
@@ -424,8 +427,8 @@ input:checked + .switch:after {
     }
 
     input:checked + .switch:after {
-        content:"grams";
         position: absolute;
+        content:"grams";
         padding-top: 0.32em;
         right: 3.47rem;
     }
