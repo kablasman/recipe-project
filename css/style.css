@@ -127,7 +127,7 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.85em;
     list-style-type: none;
-    padding: 2em;
+    padding: 2em 2.6em;
     margin: 0;
     line-height: 2em;
 }
@@ -406,7 +406,6 @@ input:checked + .switch:after {
         min-width: 25em;
         margin-left: auto;
         margin-right: auto;
-        padding: 0;
     }
 
     .ul {
