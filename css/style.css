@@ -238,6 +238,48 @@ caption {
     margin-bottom: 0;
 }
 
+.toggle {
+    position: relative;
+	background-color:#fff;
+	display: block;
+    width: 2em;
+    border-radius: 1em;
+    margin: 1em 2.2em;
+    margin-bottom: 0.5em;
+    padding-right: 3.5em;
+    box-shadow: inset 0 0 0.3rem rgba(0, 0, 0, 0.3);
+    content: "hi";
+    color:black;
+	/*transition: background-color var(--speed), border-color var(--speed);*/
+}
+
+.switch {
+    background-color:#FFBC48;
+	height: 1.2em;
+    width: 1em;
+    padding-right: 1.5em;
+    border: 2px solid;
+    border-radius: 1em;
+    box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.4);
+/*.mode:checked + .switch {
+	transform: translateX(1em);*/
+}
+
+.switch:before {
+    content:"grams";
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 0.7em;
+    padding-left: 0.4em;
+ }
+
+ .switch:after {
+    content:"lbs,oz";
+    font-family: 'Fira Sans', sans-serif;
+    color:grey;
+    font-size: 0.7em;
+    padding-left: 1em;
+ }
+
 .quote {
     border-left: solid #FFBC48;
     margin: 0 1em;
@@ -372,6 +414,20 @@ caption {
 
     .baking {
         margin-top: 0;
+    }
+
+    .toggle {
+        position: relative;
+        background-color:#fff;
+        display: block;
+        width: 2em;
+        border-radius: 1em;
+        margin: 1em 0;
+        margin-bottom: 0.5em;
+        padding-right: 3.5em;
+        box-shadow: inset 0 0 0.3rem rgba(0, 0, 0, 0.3);
+        content: "hi";
+        color:black;
     }
 
     .headerp {
