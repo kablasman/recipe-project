@@ -454,11 +454,6 @@ input:checked + .switch:after {
 
     .img_styling {
         padding: 0;
-        transition: transform 0.3s;
-    }
-    
-    .img_styling:hover {
-        transform: scale(1.05);
     }
 
     .bullet {
