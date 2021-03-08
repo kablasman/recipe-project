@@ -314,6 +314,7 @@ input:checked + .switch:after {
 .quote {
     border-left: solid #FFBC48;
     margin: 0 1em;
+    margin-bottom: 1em;
 }
 
 .author {
