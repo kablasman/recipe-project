@@ -19,4 +19,9 @@
    ## Schedule
    ## Result
 ## Footer
-   
+
+## Resources
+   ### Stack Overflow - switch mechanism
+   ### https://codepen.io/nxworld/pen/ZYNOBZ?editors=1100 - hover
+
+
