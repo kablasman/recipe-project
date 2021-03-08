@@ -316,6 +316,11 @@ input:checked + .switch:after {
     margin: 0 1em;
 }
 
+.author {
+    padding-left: 2.7em;
+    padding-bottom: 0;
+}
+
 .spacing {
     padding-top: 0;
     margin-top: 0;
