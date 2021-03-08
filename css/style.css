@@ -184,6 +184,7 @@ ol {
 .navlist {
     line-height: 0;
     padding: 0;
+    margin: 0.5em;
     justify-content: space-evenly;
     list-style-type: none;
     text-align: center;
